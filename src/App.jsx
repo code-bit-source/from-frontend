@@ -9,7 +9,7 @@ function App() {
     // <div className="">hellow</div>
     <Routes>
       <Route path="/" element={<FromPage />} />
-      <Route path="/9315868930" element={<DetailsPage />} />
+      <Route path="/details" element={<DetailsPage />} />
     </Routes>
   );
 }
