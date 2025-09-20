@@ -46,7 +46,7 @@ function FromPage() {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
               </svg>
             </div>
-            <h1 className="text-3xl font-bold text-white mb-2">Thank You!</h1>
+            <h1 className="text-3xl font-light text-white mb-2">Thank You!</h1>
             <p className="text-gray-400 mb-6">
               Your form has been submitted successfully. We’ll contact you soon.
             </p>
@@ -54,7 +54,7 @@ function FromPage() {
               href="https://wa.me/9315868930?text=Hi%20I%20just%20submitted%20my%20project%20form"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-6 py-3 rounded-lg bg-green-600 text-white font-medium hover:bg-green-700 hover:shadow-lg hover:scale-105 transition duration-200"
+              className="px-6 py-3 rounded-lg bg-blue-600 text-white font-light hover:bg-green-700 hover:shadow-lg hover:scale-105 transition duration-200"
             >
               Chat on WhatsApp
             </a>
@@ -67,8 +67,8 @@ function FromPage() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#0a0a0a] via-[#111827] to-[#1e1b4b] px-4">
       <div className="w-full max-w-2xl rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl shadow-2xl p-10">
-        <h1 className="text-3xl font-extrabold text-white mb-8 text-center">
-          🚀 Client Project Form
+        <h1 className="text-4xl  text-white mb-8 font-light text-center">
+          Client Project Form
         </h1>
 
         <form onSubmit={handleSubmit} className="space-y-6 text-gray-200">
