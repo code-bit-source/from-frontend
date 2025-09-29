@@ -9,7 +9,7 @@ function App() {
     // <div className="">hellow</div>
     <Routes>
       <Route path="/" element={<FromPage />} />
-      <Route path="/details" element={<DetailsPage />} />
+      <Route path="/details-9315-amrit-form" element={<DetailsPage />} />
     </Routes>
   );
 }

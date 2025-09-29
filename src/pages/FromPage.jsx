@@ -90,7 +90,7 @@ export default function FromPage() {
         <div className="hidden md:flex flex-col justify-between gap-6 p-6">
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-indigo-600 to-purple-600 grid place-items-center text-white font-semibold">PT</div>
+              <div className="w-12 h-12 rounded-full font-light bg-gradient-to-br from-indigo-600 to-purple-600 grid place-items-center text-white ">A</div>
               <div>
                 <h2 className="text-xl font-semibold text-gray-800">Project Intake</h2>
                 <p className="text-sm text-gray-500">Give us the essentials. We convert briefs into fixed-scope proposals.</p>
